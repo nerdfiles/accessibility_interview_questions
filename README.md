@@ -6,11 +6,59 @@ Questions are grouped into three buckets: [General](#general), [Technical](#tech
 
 ## General
 - Who benefits from accessibility?
+  - All users, customers and stakeholders in a web application's life are 
+  benefactors of the work in achieving accessibility requirements and goals, 
+  each for different reasons which converge on the description, explanation, 
+  development and interpretation of purposeful and successful web application 
+  features. The properties of an accessible web application are perceivability,
+  operosity or operability, usability and robustness. Historically, however, 
+  users of assistive technologies have been excluded from participation in 
+  web applications, primarily, due to undertheoretization and lack of research 
+  regarding the technologies as well as their ability circumstances, cognitive,
+  neurological and physiological, whether it involves blindness, color 
+  interpretation, tactile capabilities, as well as cultural constraints involving 
+  linguistic and ethnic norms which appeal to the majority at the cost of minority 
+  populations who might encounter or use web applications.
 - How would you define inclusive and/or universal design?
+  - Inclusive design involves consideration of both vertical and lateral thinking 
+  as well as circumstance-based thinking, insofar as these modes of interaction 
+  with web applications may be realized at the cost of others if they are designed 
+  in a certain way. Lateral thinking styles involve analogical reasoning whereas 
+  vertical thinking generally involves deductive reasoning and perceiving. 
     + Can you provide an example? (does not need to be web related)
+    + Circumstances may compromise fundamental experience with a web application, such 
+    as using a web application in an urgent crisis that may cause a user not to perceive 
+    web page elements as clearly or use them as effectively. Lateral thinking involves 
+    enhancing or encouraging analogical reasoning to discover and draw inferences about 
+    the state of the web application based on visual and feedback web page elements. 
+    Vertical thinking involves encouraging patterns that reflect deductive reasoning 
+    patterns like linear flow sequences, user interface wizards and modal windows.
 - How has your approach to accessibility changed over time?
+  - I began only focused on semantic HTML but eventually realized that data 
+  itself must be augmented with accessibility requirements involving 
+  hypermedia as the engine of application state (HATEOAS), beyond merely 
+  developing DOM-based solutions that may be subject to cross-browser 
+  compatibility constraints.
 - Name some ways responsive/mobile first design can affect accessibility.
+  - In terms of perceivability and operability mobile-first designs can create 
+  accidental side-effects where web page elements are not visually presented 
+  or they become unusable (since mobile clients or devices may not support 
+  various ARIA features available in dominant browsers). In some cases, modal 
+  windows, e.g., may not render as effectively or performatively as they would 
+  in a desktop setting, since performance requirements are different under the 
+  mobile context; this is also a matter of robustness. If semantic HTML is 
+  used, the negative consequences for perceivability and usability can be 
+  reduced, but this may not guarantee that operability is at parity with a 
+  desktop experience.
 - What are some user experience (UX) concerns to be aware of when using iconography in user interfaces (UI)?
+  - Iconography can sometimes affect perceivability if they orient the user 
+  visually in the wrong way; other times they can be treated as "user 
+  interface imagery" by the developer and go undescribed using ARIA labels, 
+  which effectively turns them into blackholes for blind users of assistive 
+  technologies like screen readers or users who have low-vision who may also 
+  use such technologies. Users with cognitive disabilities may not, depending 
+  on the icon chosen, adequately interpret those icons so as to act in the 
+  expected manner that the developer builds or the designer plans.
 - What assistive technologies (ATs) are you familiar with (desktop + mobile)?
     + What do you feel is your skill level with these AT(s)? 
 - What are skip links?
